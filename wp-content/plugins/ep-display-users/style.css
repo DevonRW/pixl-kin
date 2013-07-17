@@ -1,0 +1,95 @@
+/* ============================ */
+/* = Styles for the user list = */
+/* ============================ */
+.epdu_userlist {
+	display: block;
+	clear: both;
+	margin: 0;
+	list-style: none;
+	margin-bottom: 15px;
+}
+
+.epdu_userlist:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	width: 0;
+}
+	
+.epdu_userlist > li {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ececec;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+
+.epdu_userlist .user-photo {
+	float: right;
+	display: block;
+}
+
+.epdu_userlist .user-info {
+	float: left;
+	display: block;
+}
+
+.epdu_userlist .user-info h2 {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.epdu_userlist .user-info p {
+	margin: 0 0 10px;
+}
+
+.epdu_userlist .user-info ul {
+	margin: 0;
+}
+
+.epdu_userlist .user-info ul:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	width: 0;
+}
+
+.epdu_userlist .user-info li {
+	background: none;
+	margin: 0;
+	list-style: none;
+	border: none;
+	padding: 0;
+}
+
+.epdu_userlist .user_desc {
+	clear: both;
+	padding: 10px 0 0;
+}
+		
+/* ========================= */
+/* = Styles for the widget = */
+/* ========================= */
+.epdu-widget-box .epdu-widget-title {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.epdu-widget-box p {
+	margin: 0 0 10px;
+}
+
+.epdu_user-img-caption {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.1;
+}
+	
+.epdu_user-img-caption .epdu_position {
+	font-size: 14px;
+	font-weight: normal;
+}	
